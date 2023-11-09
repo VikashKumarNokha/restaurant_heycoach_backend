@@ -1,6 +1,7 @@
 const express = require("express")
 const cors = require("cors")
 const bodyParser = require("body-parser")
+require('dotenv').config()
 
 const  userRouter = require("./routes/user.routes");
 const restaurantRouter = require("./routes/restaurant.routes")
@@ -32,8 +33,8 @@ app.use((err, req, res, next) => {
      });
    });
    
-
+   const port=process.env.PORT || 5000
 //    app  listener 
-app.listen(5000, ()=>{
+app.listen(port, ()=>{
      console.log("server running on port 5000");
 })
