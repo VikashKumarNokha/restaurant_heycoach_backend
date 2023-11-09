@@ -19,7 +19,7 @@ module.exports = (sequelize, DataTypes) => {
     email: DataTypes.STRING,
     mobile: DataTypes.STRING,
     address: DataTypes.STRING,
-    add_by: DataTypes.INTEGER
+    added_by: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'Restaurant',

@@ -24,7 +24,7 @@ module.exports = {
       address: {
         type: Sequelize.STRING
       },
-      add_by: {
+      added_by: {
         type: Sequelize.INTEGER
       },
       createdAt: {
