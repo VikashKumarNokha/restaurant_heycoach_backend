@@ -8,16 +8,16 @@
   },
   "test": {
     "username": "root",
-    "password": null,
-    "database": "database_test",
+    "password": "Vikash@8556",
+    "database": "restaurantdb",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "freedb_VikashKumarNokha",
+    "password": "SN$cqz$yZ3zg5DE",
+    "database": "freedb_vikashTestMysqlDB",
+    "host": "sql.freedb.tech",
     "dialect": "mysql"
   }
 }
